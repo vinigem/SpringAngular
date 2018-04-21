@@ -2,7 +2,7 @@
 ## Create Angular App with minimal configurations using angular cli
 `ng new spring-angular --minimal`
 
-## Add the below scri[t to package.json for prod build
+## Add the below script to package.json for prod build
 `"build:prod": "ng build --prod --environment=prod --output-hashing none"`
 
 ## Copy Angular project
@@ -19,8 +19,11 @@
 ## Modify index.html again
 `Add the scripts generated in dist folder to index.html`
 
-## modify web.xml
+## Modify web.xml
 `Add the welcome file to src/index.html`
 
-## Start the App
+## Modify mvc-config.xml
+`Add <mvc:default-servlet-handler/> to load the welcome file by default`
+
+## Run the Spring App
 
